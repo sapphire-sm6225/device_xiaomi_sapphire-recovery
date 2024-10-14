@@ -17,11 +17,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/chickendrop89/orangefox_device_xiaomi_sapphire'
+        default: 'https://github.com/saroj-nokia/device_xiaomi_sapphire-recovery'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: '12.1'
+        default: 'twrp-sapphire'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
