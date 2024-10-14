@@ -17,7 +17,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/chickendrop89/orangefox_device_xiaomi_tapas'
+        default: 'https://github.com/chickendrop89/orangefox_device_xiaomi_sapphire'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -25,7 +25,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/tapas'
+        default: 'device/xiaomi/sapphire'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
@@ -33,11 +33,11 @@ on:
       DEVICE_VARIANT:
         description: 'DEVICE_VARIANT'
         required: true
-        default: 'tapas/topaz-A13+'
+        default: 'sapphire/sapphire-A13+'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_tapas'
+        default: 'twrp_sapphire'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
